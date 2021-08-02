@@ -11,7 +11,8 @@ This is my atemp to upload an static porfolio about my artistic projects in my p
 - [ ] collect artistic projects
 - [ ] choose the format or the order idk either.
 - [ ] learn how no configure my dev branch to not override my static build branch
-- [ ] refresh my knoledge of react and configure next
+- [ ] refresh my knoledge of react
+- [x] install next.js
 - [ ] try not to die trying
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -25,6 +26,7 @@ npm run dev
 # or
 yarn dev
 ```
+PD -> I love yarn
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
