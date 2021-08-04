@@ -39,7 +39,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h2>Who's using this sh4t?&rarr;</h2>
+            <h2>Who is using this sh4t?&rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -47,7 +47,7 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>where the f4ck's that sh4t? &rarr;</h2>
+            <h2>where the f4ck is that sh4t? &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
