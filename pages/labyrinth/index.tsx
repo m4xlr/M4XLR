@@ -1,7 +1,8 @@
-import Navbar from "../../components/navbar";
+import Navbar from '../../components/navbar';
+import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
-import Minfooter from "../../components/minfooter"
+import Minfooter from '../../components/minfooter';
 
 export default function Labyrinth (){
     return(
@@ -9,8 +10,7 @@ export default function Labyrinth (){
         <Head>
             <title>M4XLR | LABYRINTH</title>
         </Head>
-        <Navbar>
-        </Navbar>
+        <Navbar></Navbar>
         <main>
             <p>
                 This is labyrinth, a way to undesrtand my art and my vision of the reality, in a good way
@@ -23,8 +23,7 @@ export default function Labyrinth (){
             </p>
 
         </main>
-        <Minfooter>
-        </Minfooter>
+        <Minfooter></Minfooter>
         </>
     )
 
