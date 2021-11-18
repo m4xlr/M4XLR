@@ -1,10 +1,15 @@
+import Link from "next/link"
+
 export default function Navbar(){
     return( 
     <nav className="bg-white shadow dark:bg-gray-800">
     <div className="container px-6 py-3 mx-auto md:flex">
         <div className="flex items-center justify-between">
             <div>
+                <Link href="/">
                 <a className="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">M4XLR</a>
+                </Link>
+                
             </div>
             
             <div className="flex md:hidden">
@@ -19,10 +24,21 @@ export default function Navbar(){
 
         <div className="w-full md:flex md:items-center md:justify-between">
             <div className="flex flex-col px-2 py-3 -mx-4 md:flex-row md:mx-0 md:py-0">
-                <a href="#" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Home</a>
-                <a href="#" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">About</a>
-                <a href="#" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Contact</a>
-                <a href="#" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">labyrinth</a>
+                <Link href="/">
+                <a className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Home</a>
+                </Link>
+                <Link href="/about">
+                <a className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">About</a>
+                </Link>
+                <Link  href="labyrinth">
+                <a className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">labyrinth</a>
+                </Link>
+                <Link href="/jouthweernal">
+                <a className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">jouthweernal</a>
+                </Link>
+                <Link href="/blog">
+                <a className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">blog</a>
+                </Link>
             </div>
             
             <div className="relative">

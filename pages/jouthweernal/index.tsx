@@ -6,7 +6,12 @@ import Minfooter from '../../components/minfooter'
 export default function Jouthweernal (){
     return(
         <>
-        Hope this works :s
+        <Head>
+            <title>JouthWeernal | M4XLR</title>
+        </Head>
+        <h1>JouthWeernal</h1>
+        <p>A safe space to share my high thougs</p>
+
         </>
     )
 }
