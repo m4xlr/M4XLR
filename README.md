@@ -7,7 +7,7 @@ This is my atemp to upload an static porfolio about my artistic projects in my p
 - [x] create a repo
 - [x] buy the domain
 - [x] register my domain on netlify
-- [ ] conect the repo to netlify or other service idk. 
+- [X] conect the repo to netlify or other service idk. 
 - [ ] collect artistic projects
 - [ ] choose the format or the order idk either.
 - [X] learn how no configure my dev branch to not override my static build branch
