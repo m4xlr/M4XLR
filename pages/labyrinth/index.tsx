@@ -21,7 +21,6 @@ export default function Labyrinth (){
                 Everytime you enter this page, the scenario is diferent and you have to find links in orther
                 to explore
             </p>
-
         </main>
         <Minfooter></Minfooter>
         </>
